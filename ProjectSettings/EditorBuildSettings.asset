@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: c969a93e04ce9674e90d4caba9cf163d
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 76a0df08b87822b4cb5da3708802fdd9
+  - enabled: 1
+    path: Assets/Scenes/StageSelection.unity
+    guid: 1586da9ff9011a642a4eae573c7c6b2a
+  - enabled: 1
+    path: Assets/Scenes/FireCapital.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/TheRockwall.unity
+    guid: 4d3a9b47f0621f44e84533ca297daf20
+  - enabled: 1
+    path: Assets/Scenes/PridemoorKeep.unity
+    guid: 3a42b0cfc1fd4594eae201587dc80d22
+  m_configObjects: {}

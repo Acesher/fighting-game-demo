@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: e4bebb008f4c46d4b9147f2296e49ddd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire Capital_Bg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1416
+        width: 644
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0dbdc8bb8c5da42936c09d7181b16e
+      internalID: 94576958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Sky
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1684
+        width: 644
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb17e27be67a64b43aecd2473c4b845c
+      internalID: -712626362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Ground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1162
+        width: 422
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef43dbcdfebdd324e932a8045a6c030f
+      internalID: 1737681738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_R_0
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1969
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bd44fc7e6ebda40bb455184105470a
+      internalID: -1388222096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_R_1
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1890
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8560f281b5117a34887ae0415e352310
+      internalID: 39021798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_R_2
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1810
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b11a32e320f0a4da7790a507330e7c
+      internalID: -1485552186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_R_3
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1728
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743aa7114ef508947932723121949507
+      internalID: -1350918522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_R_4
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1648
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a19207b3cc1a7e4d98fefe6264dea67
+      internalID: -577955162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_R_5
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1568
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdd72d69b9a46d47911bab125c43e66
+      internalID: -192068029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_R_6
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1490
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a51aeb82ee6404998c2c4c61668ba5
+      internalID: -1440013857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_Left_0
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1970
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8d8fbb3a7ff0e4c80e63379db56b36
+      internalID: 132171753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_Left_1
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1889
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b81686120eca1e4fbfe8b780f71816e
+      internalID: 558107137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_Left_3
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1810
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e71f07591106a49b9654fe6206b885
+      internalID: 1534656429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_Left_4
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 930
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e227db4a702619d4bb9c41095809bef6
+      internalID: -1320836245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_Left_5
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 775
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05b8486f18a8fb46bd7e16a1ea035c5
+      internalID: -598314033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Flag_Left_6
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 622
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aba1e448179074b8fbbf26ebb12af3
+      internalID: -190118508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1112
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0254cc001456b464dbcb5cbeef0bfc15
+      internalID: -1505948690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 958
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37f038d347dfe94b98a2153667d44ea
+      internalID: 1019219604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 804
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c9dfc9048ac5241a2a98c889972e07
+      internalID: 16435297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Fire_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 650
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c6408622d9ad0409912df932a96340
+      internalID: 543715938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Fire_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1112
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3920338ea91c3b54ca33b32ce14a2094
+      internalID: -184063489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Fire_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 958
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05efb39f4d928bf49ab256deeb39ae4c
+      internalID: -867831161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Fire_6
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 804
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeef836b30bd03a46b50cbb297dfef5e
+      internalID: -76128666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Fire_7
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 650
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd9a4a6a253d8b44b7feda7dca15a4f
+      internalID: -1692075326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_MF_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 545
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088ecb62c86a7254bbc88825fc6fb801
+      internalID: 2043292852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_MF_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 545
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d21b02d0a213a4faeddea06f974def
+      internalID: -2073100668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_MF_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 545
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0780aa28ad59149b462f14258355e4
+      internalID: 364792923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_F_1
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 972
+        width: 20
+        height: 17
+      alignment: 9
+      pivot: {x: 0.2747406, y: 0.47351074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb043e2f9dafcd44a9ea529bc02d34e
+      internalID: 1238901001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_F_2
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 818
+        width: 20
+        height: 17
+      alignment: 9
+      pivot: {x: 0.31979066, y: 0.46025175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b385ce17a1ee744caa62138ac5778ac
+      internalID: -461025723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_Ground_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1162
+        width: 420
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff284e629d9db74f83183b78e2d1ed1
+      internalID: -1159373924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_F_
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1126
+        width: 20
+        height: 17
+      alignment: 9
+      pivot: {x: 0.27473754, y: 0.46025535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488dc95f2b4af434190b8d683370247b
+      internalID: 988371424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Capital_0
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 663
+        width: 20
+        height: 17
+      alignment: 9
+      pivot: {x: 0.31979066, y: 0.5000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604a103726ceb164682f5038196bcfe2
+      internalID: 2130149859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fire Capital_Ground_2: -1159373924
+      Fire Capital_MF_0: 2043292852
+      Fire Capital_Bg: 94576958
+      Fire Capital_Ground: 1737681738
+      Fire Capital_Fire_1: 1019219604
+      Fire Capital_Flag_R_0: -1388222096
+      Fire Capital_Fire_6: -76128666
+      Fire Capital_Fire_2: 16435297
+      Fire Capital_Flag_R_2: -1485552186
+      Fire Capital_Flag_R_1: 39021798
+      Fire Capital_Fire_5: -867831161
+      Fire Capital_Flag_Left_0: 132171753
+      Fire Capital_Fire_3: 543715938
+      Fire Capital_0: 2130149859
+      Fire Capital_Fire_0: -1505948690
+      Fire Capital_Flag_R_5: -890040535
+      Fire Capital_Flag_Left_1: 558107137
+      Fire Capital_Flag_Left_6: -190118508
+      Fire Capital_Flag_Left_3: 1534656429
+      Fire Capital_MF_2: 364792923
+      Fire Capital_F_2: -461025723
+      Fire Capital_Sky: -712626362
+      Fire Capital_Flag_Left_4: -1320836245
+      Fire Capital_MF_: 1276505708
+      Fire Capital_F_1: 1238901001
+      Fire Capital_F_: 988371424
+      Fire Capital_Fire_4: -184063489
+      Fire Capital_Flag_R_3: -1350918522
+      Fire Capital_MF_1: -2073100668
+      Fire Capital_Flag_R_4: -577955162
+      Fire Capital_Flag_R_6: -1440013857
+      Fire Capital_Flag_Left_5: -598314033
+      Fire Capital_Fire_7: -1692075326
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,615 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1671164181200095, "dur": 2311347, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671164181200466, "dur": 4521, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671164181204989, "dur": 81210, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671164181286201, "dur": 623044, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671164181909247, "dur": 1600203, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671164183509452, "dur": 1990, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671164183511881, "dur": 21, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1671164181648877, "dur": 238268, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671164181650585, "dur": 71568, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671164181860960, "dur": 7282, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671164181868245, "dur": 18885, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671164181869430, "dur": 16337, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671164181894552, "dur": 2271, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671164181893224, "dur": 3635, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671164183512052, "dur": 443, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1671164182006269, "dur":2060, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164182008342, "dur":155, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1671164182008559, "dur":35, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1671164182008594, "dur":504, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1671164182009159, "dur":1144, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164182010303, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183459889, "dur":418, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460307, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460325, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460331, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460341, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460346, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460356, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460361, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460370, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460374, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460384, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460389, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460398, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460403, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460413, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460417, "dur":89, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460506, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460530, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183460562, "dur":6797, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671164182011101, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671164182011102, "dur":7962, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671164182019079, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671164182019089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671164182021629, "dur":2372, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671164182024008, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671164182024049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671164182024452, "dur":6840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1671164182031295, "dur":56365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1671164182087665, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671164182087676, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1671164182090080, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1671164182090124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671164182090131, "dur":19348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1671164182109507, "dur":1028776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671164183138288, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671164183138383, "dur":8774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671164183147200, "dur":312665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671164182011273, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671164182011274, "dur":7838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671164182019113, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1671164182019191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671164182025626, "dur":34195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1671164182059850, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1671164182059893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671164182059901, "dur":99684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1671164182159613, "dur":329114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1671164182488735, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671164182488748, "dur":4015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1671164182492808, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1671164182492844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671164182492856, "dur":3026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1671164182495914, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1671164182495943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671164182495952, "dur":2931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1671164182498918, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1671164182498946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671164182498954, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1671164182501718, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1671164182501755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671164182501766, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1671164182504279, "dur":955587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671164182011407, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671164182011407, "dur":7706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671164182019113, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1671164182019189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671164182025294, "dur":29861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1671164182055180, "dur":37968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1671164182093153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671164182093162, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1671164182095281, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1671164182095326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671164182095333, "dur":63610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1671164182158973, "dur":1282003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671164183440981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671164183440988, "dur":18770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671164183459806, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1671164183459812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182011581, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182011582, "dur":7510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182019092, "dur":79632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1671164182098728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182098737, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1671164182100867, "dur":297240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182398111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182398762, "dur":5233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182404031, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182404771, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182404899, "dur":5648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182410584, "dur":860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182411449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182411461, "dur":3608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182415104, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182415666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182415677, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182418947, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182419424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182419439, "dur":3723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182423191, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182423507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182423516, "dur":2817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671164182426367, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1671164182426652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182427385, "dur":3608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1671164182431021, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":4, "ts":1671164182431041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182431048, "dur":7674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":4, "ts":1671164182438755, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":4, "ts":1671164182438792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182438805, "dur":11664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":4, "ts":1671164182450515, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671164182450553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182450568, "dur":3626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671164182454232, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671164182454265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182454277, "dur":3218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671164182457533, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671164182457564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182457576, "dur":24947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1671164182482557, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671164182482581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182482591, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1671164182485570, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1671164182485952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182485963, "dur":3659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1671164182489657, "dur":4730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1671164182494399, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182494418, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1671164182497035, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1671164182497056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182497064, "dur":5072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1671164182502165, "dur":3883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1671164182506054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671164182506063, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1671164182508305, "dur":951579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182011707, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182011708, "dur":7358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182019079, "dur":61854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1671164182080938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182081408, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1671164182083739, "dur":94704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671164182178505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182178655, "dur":78434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1671164182257127, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182257535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182257546, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182260364, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182260691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182260701, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182262778, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182263084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182263093, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182265123, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182265451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182265460, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182268171, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182268450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182268509, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182270854, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182271138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182271146, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182273952, "dur":2330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182276286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182276293, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182279459, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182279730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182279833, "dur":2480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182282337, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182282644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182282653, "dur":2631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182285317, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182285728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182285736, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182288174, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182288672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182288682, "dur":2647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182291359, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182291734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182291745, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182294782, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182295103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182295113, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182297551, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182297887, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182297900, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182300554, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182300881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182300892, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182303054, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182303531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182303539, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182305944, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182306266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182306276, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182308411, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182308804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182308814, "dur":3127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182311971, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182312317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182312328, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182314559, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182314909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182314919, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182318007, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182318284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182318292, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182320704, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182321077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182321084, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182324145, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182324492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182324503, "dur":2295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182326829, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182327350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182327360, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182329593, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182330022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182330033, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182332388, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182332652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182332662, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182334771, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182335082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182335092, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182337671, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182337948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182337957, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182340629, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182340915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182340970, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182344310, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182345127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182345134, "dur":2612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182347770, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182348055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182348065, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182350644, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182350912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182350919, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182353044, "dur":1074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182354122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182354130, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182357459, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182358355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182358367, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182361719, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182362042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182362053, "dur":2295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182364370, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182364703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182364712, "dur":2521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182367267, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182367595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182367604, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182370688, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182370967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182370976, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182374071, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182374350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182374359, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182377129, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182377552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182377563, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182380790, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182381142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182381152, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182383938, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182384433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182384444, "dur":2871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182387350, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182387723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182387732, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182390223, "dur":6903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182397131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182397141, "dur":6193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182403361, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182403666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182403675, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182406784, "dur":6086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182412876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182412886, "dur":5993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182418911, "dur":1662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182420577, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182420592, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182424110, "dur":7813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182431928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182433736, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671164182436611, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671164182436652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182436664, "dur":2744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671164182439437, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671164182439563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182439572, "dur":4291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671164182443905, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1671164182443934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671164182443945, "dur":71886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1671164182515858, "dur":944028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671164182011834, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671164182011835, "dur":7276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671164182019112, "dur":28545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1671164182047664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671164182047676, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1671164182049846, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1671164182049889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671164182049982, "dur":23987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1671164182074006, "dur":104381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1671164182178393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671164182178565, "dur":54531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1671164182233130, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1671164182233188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671164182233730, "dur":361147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1671164182594952, "dur":864930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182011979, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182011979, "dur":7130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182019110, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1671164182019178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182023890, "dur":38311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1671164182062225, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1671164182062262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182062919, "dur":12592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1671164182075535, "dur":282120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1671164182357660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182357672, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1671164182360390, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182360741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182360751, "dur":3463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182364241, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182364481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182364488, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182367211, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182367580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182367594, "dur":2966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182370593, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182370901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182370915, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182373812, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182374096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182374106, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182376595, "dur":974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182377573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182377582, "dur":4089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182381701, "dur":1207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182382912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182382921, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182386074, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182386424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182386434, "dur":2746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182389221, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182389617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182389632, "dur":3239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182392905, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182393290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182393302, "dur":2381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182395707, "dur":876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182396633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182396644, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182399407, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182399723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182399736, "dur":3279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182403048, "dur":530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182403585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182403598, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182406067, "dur":1365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182407440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182407454, "dur":3428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182410914, "dur":2867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182413786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182413801, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182417910, "dur":992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182418907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182418918, "dur":3723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182422674, "dur":831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182423511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182423524, "dur":3309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671164182426865, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1671164182426894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182426994, "dur":4716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1671164182431743, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671164182431775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182431787, "dur":9098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671164182440917, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":7, "ts":1671164182440945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182440954, "dur":18419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":7, "ts":1671164182459415, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671164182459463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182459476, "dur":3942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671164182463460, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671164182463497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182463511, "dur":33500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1671164182497044, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1671164182497120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182497128, "dur":3380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1671164182500537, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671164182500564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671164182500572, "dur":3644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1671164182504244, "dur":955641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182012098, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182012098, "dur":6993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182019092, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1671164182019177, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182024519, "dur":46217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1671164182070762, "dur":137362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1671164182208129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182208139, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1671164182210628, "dur":21009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles.exe" }}
+,{ "pid":12345, "tid":8, "ts":1671164182231643, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182231654, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles.exe" }}
+,{ "pid":12345, "tid":8, "ts":1671164182234974, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182235330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182235784, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182238406, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182238678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182238789, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182240795, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182241058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182241066, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182243359, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182243709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182243720, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182245864, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182246162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182246170, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182248861, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182249294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182249302, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182251294, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182251567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182251578, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182253572, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182253855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182253862, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182256006, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182256358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182256368, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182258615, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182258948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182258960, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182261690, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182262008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182262022, "dur":2594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182264650, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182265128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182265138, "dur":3079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182268240, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182268641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182268651, "dur":2300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182270977, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182271309, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182271317, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182273947, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182274353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182274361, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182276416, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182276995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182277003, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182279586, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182279909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182279918, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182282410, "dur":593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182283007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182283014, "dur":3201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182286245, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182286613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182286623, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182288964, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182289270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182289316, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182291881, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182292191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182292201, "dur":3088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182295317, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182295576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182295583, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182297861, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182298162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182298169, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182301118, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182301379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182301386, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182303536, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182303967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182303974, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182306612, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182307175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182307185, "dur":2644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182309857, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182310176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182310187, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182313169, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182313457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182313467, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182315560, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182316061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182316068, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182318790, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182319128, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182319145, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182321638, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182321915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182321921, "dur":3484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182325440, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182325971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182325983, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182328746, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182329248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182329260, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182331923, "dur":2491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182334418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182334427, "dur":3308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182337764, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182338186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182338195, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182340621, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182340984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182340992, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182344049, "dur":673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182344727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182344737, "dur":2793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182347561, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182347899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182347906, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182350670, "dur":709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182351383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182351390, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182353919, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182354305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182354314, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182357022, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182357557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182357567, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182360127, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182360431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182360442, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182363539, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182363857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182363867, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182366633, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182366961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182366971, "dur":2817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182369822, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182370138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182370148, "dur":2811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182372990, "dur":1717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182374712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182374721, "dur":3365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182378115, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182378579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182378589, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182381744, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182382108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182382119, "dur":2943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182385093, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182385550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182385564, "dur":4150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182389740, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182390320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182390333, "dur":3569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182393926, "dur":692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182394623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182394633, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182397007, "dur":2079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182399095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182399109, "dur":3656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182402800, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182403368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182403380, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182405914, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182406300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182406314, "dur":2792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182409136, "dur":5259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182414403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182414415, "dur":5254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182419697, "dur":9854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182429560, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182429576, "dur":9754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671164182439362, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1671164182439391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182439399, "dur":13474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1671164182452936, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1671164182452965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182452975, "dur":46480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1671164182499486, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ACER/Desktop/brutal-chronicles_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1671164182499507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671164182499514, "dur":3837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ACER/Desktop/brutal-chronicles_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1671164182503380, "dur":956507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671164183472575, "dur":3324, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1671164183512566, "dur": 1742, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671164183511865, "dur": 2482, "ph": "X", "name": "Write chrome-trace events", "args": {} },
